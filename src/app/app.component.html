@@ -1,1 +1,34 @@
 <h1 class="text-3xl font-bold underline">Hello world!</h1>
+
+<div>
+  <div>{{ "HOME.GREETING" | translate : param }}</div>
+  <h3>{{ "HOME.GREETING.SUBTITLE" | translate : param }}</h3>
+  <p>{{ "HOME.GREETING.DESCRIPTION" | translate : param }}</p>
+  <button>{{ "HOME.GREETING.BUTTON" | translate : param }}</button>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<br />
+<br />
+<br />
+<br />
+<div>
+  <ul class="language-selector">
+    <li (click)="switchToEnglish()">
+      <img
+        src="https://flagicons.lipis.dev/flags/4x3/um.svg"
+        alt="American Flag"
+      />
+    </li>
+    <li (click)="switchToSpanish()">
+      <img
+        src="https://flagicons.lipis.dev/flags/4x3/mx.svg"
+        alt="Mexican Flag"
+      />
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,9 @@
+{
+    "HOME": {
+        "GREETING": "Bonjour {{value}}",
+        "GREETING.SUBTITLE": "Avocats cacas",
+        "GREETING.DESCRIPTION": "Les meilleurs avocats du caca",
+        "GREETING.BUTTON": "Prenez rendez-vous"
+
+    }
+}

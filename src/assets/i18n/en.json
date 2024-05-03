@@ -1,0 +1,9 @@
+{
+    "HOME": {
+        "GREETING": "Welcome {{value}}",
+        "GREETING.SUBTITLE": "Professional lawyers",
+        "GREETING.DESCRIPTION": "The best firm in all Mexico",
+        "GREETING.BUTTON": "Take an appointment"
+
+    }
+}

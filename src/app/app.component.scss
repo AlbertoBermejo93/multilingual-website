@@ -1,0 +1,16 @@
+.language-selector {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .language-selector li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .language-selector li img {
+    width: 24px; /* Maintain the width */
+    height: 24px; /* Increase the height */
+    margin-right: 5px;
+  }

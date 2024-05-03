@@ -1,0 +1,9 @@
+{
+    "HOME": {
+        "GREETING": "Hola {{value}}",
+        "GREETING.SUBTITLE": "Abogados Profesionales",
+        "GREETING.DESCRIPTION": "Los mejores abogados de toda la peninsula",
+        "GREETING.BUTTON": "Toma cita"
+
+    }
+}
