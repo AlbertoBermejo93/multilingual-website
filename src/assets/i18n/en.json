@@ -5,5 +5,115 @@
         "GREETING.DESCRIPTION": "The best firm in all Mexico",
         "GREETING.BUTTON": "Take an appointment"
 
+    },
+    "NAVBAR": {
+        "LINK.HOME": "Home",
+        "LINK.SERVICES": "Services",
+        "LINK.SPECIALTIES": "Specialties",
+        "LINK.ABOUT": "About",
+        "LINK.CONTACT": "Contact us",
+        "LINK.PHONE.INFO": "Call us at",
+        "LINK.PHONE.NUMBER": "+529999859616",
+        "LINK.EMAIL.INFO": "Email to",
+        "LINK.EMAIL.ADRESS": "abg.contacto@gmail.com"
+    },
+    "HERO": {
+        "TITLE.PHRASE.ONE": "Expertise?",
+        "TITLE.PHRASE.TWO": "Professionalism?",
+        "TITLE.PHRASE.THREE": "Quality of service?",
+        "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
+        "BUTTON.LABEL": "Take an appointment?"
+
+    },
+    "SPECIALTY": {
+        "TITLE": "Expertise?",
+        "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
+        "BUTTON.LABEL": "Take an appointment?",
+        "CARDS":{
+            "LABOUR":{
+                "IMG.SOURCE": "???",
+                "TITLE":"slkdnsd",
+                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            },
+            "PENAL":{
+                "TITLE":"slkdnsd",
+                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            },
+            "IMMIGRATION":{
+                "IMG.SOURCE": "???",
+                "TITLE":"slkdnsd",
+                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            },
+            "CIVIL":{
+                "IMG.SOURCE": "???",
+                "TITLE":"slkdnsd",
+                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            },
+            "CORPORATE":{
+                "IMG.SOURCE": "???",
+                "TITLE":"slkdnsd",
+                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            },
+            "FAMILY":{
+                "IMG.SOURCE": "???",
+                "TITLE":"slkdnsd",
+                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            }
+        }
+    },
+    "SERVICES": {
+        "TITLE": "Legal Services",
+        "SUBTITLE": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme.????",
+        "BUTTON.LABEL": "See more",
+        "TITLE.CARD.ANALIZE": "Analizing The Case",
+        "DESCRIPTION.CARD.ANALIZE": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "TITLE.CARD.STEPS": "Taking steps forward",
+        "DESCRIPTION.CARD.STEPS": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "TITLE.CARD.SUCCESS": "Court Of Law Success",
+        "DESCRIPTION.CARD.SUCCESS": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard."
+    },
+    "ABOUT": {
+        "TITLE": "About Us",
+        "DESCRIPTION": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme.????",
+        "DESCRIPTION.INFO": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme.????",
+        "BUTTON.LABEL": "Make an appointment",
+        "TITLE.CARD.EXPERTISE": "Analizing The Case",
+        "DESCRIPTION.CARD.EXPERTISE": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "TITLE.CARD.PROFESSIONALISM": "Taking steps forward",
+        "DESCRIPTION.CARD.PROFESSIONALISM": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "TITLE.CARD.SERVICE": "Court Of Law Success",
+        "DESCRIPTION.CARD.SERVICE": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard."
+    },
+    "CONTACT": {
+        "TITLE": "Get In Touch",
+        "SUBTITLE": "Ask for an appointment and we will schedule a consultation at the date and time of your choice.",
+        "ADDRESS.DESCRIPTION": "You can find us here",
+        "ADDRESS.DETAILS": "Av. Cobá 12, 77500 Cancún, Q.R., México.",
+        "EMAIL.PLACEHOLDER": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "EMAIL.SUBJECT.PLACEHOLDER": "Taking steps forward",
+        "EMAILS.MESSAGE.PLACEHOLDER": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "BUTTON.LABEL": "Get in touch"
+    },  
+    "FOOTER": {
+        "INFO.ADDRESS": "Find Us",
+        "INFO.ADDRESS.DETAILS": "Av. Cobá 12, 77500 Cancún, Q.R., México",
+        "INFO.PHONE": "Call Us",
+        "INFO.PHONE.DETAILS": "+559988-652643",
+        "INFO.EMAIL": "Write to us at",
+        "INFO.EMAIL .DETAILS": "abg.contacto@gmail.com",
+        "INFO.DESCRIPTION": "Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.",
+        "LINKS.TITLE": "Useful links",
+        "LINKS.HOME": "Home",
+        "LINKS.SERVICES": "Services",
+        "LINKS.SPECIALTIES": "Specialties ??",
+        "LINKS.ABOUT": "About Us",
+        "LINKS.CONTACT": "Contact",
+        "LINKS.HELP.TITLE": "Support",
+        "LINKS.HELP.FAQ": "FAQ",
+        "LINKS.HELP.CONDITIONS": "Terms & Conditions",
+        "LINKS.HELP.SUPPORT.POLICY": "Support policy",
+        "LINKS.HELP.PRIVACY": "Privacy policy"
+
     }
+   
 }
