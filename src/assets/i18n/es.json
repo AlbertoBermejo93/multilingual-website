@@ -29,36 +29,36 @@
         "TITLE": "Áreas de práctica",
         "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
         "BUTTON.LABEL": "Ver todas las especialidades",
-        "CARDS":{
-            "LABOUR":{
-                "IMG.SOURCE": "???",
-                "TITLE":"Derecho del Trabajo",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+        "CARDS": {
+            "LABOUR": {
+                "IMG.SOURCE": "",
+                "TITLE": "Derecho del Trabajo",
+                "SUBTITLE": "Normativas laborales y relaciones laborales en el ámbito legal mexicano. Incluye leyes, reglamentos y precedentes judiciales relacionados con contratos laborales, sindicatos, seguridad social, salarios mínimos, condiciones de trabajo y derechos de los trabajadores."
             },
-            "PENAL":{
-                "IMG.SOURCE": "???",
-                "TITLE":"Derecho Procesal Penal",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "PENAL": {
+                "IMG.SOURCE": "",
+                "TITLE": "Derecho Procesal Penal",
+                "SUBTITLE": "Procedimientos legales en casos penales bajo la jurisdicción mexicana. Cubre el proceso judicial desde la investigación inicial hasta el juicio y la sentencia, incluyendo garantías constitucionales, procedimientos de investigación, acusación, defensa, pruebas, recursos legales y ejecución de penas."
             },
-            "FISCAL":{
-                "IMG.SOURCE": "Derecho Fiscal ",
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "FISCAL": {
+                "IMG.SOURCE": "",
+                "TITLE": "Derecho Fiscal",
+                "SUBTITLE": "Leyes y regulaciones fiscales aplicables en México, que abarcan impuestos federales, estatales y municipales. Incluye normativas sobre impuestos sobre la renta, impuesto al valor agregado (IVA), impuestos empresariales, aduanas, procedimientos de auditoría fiscal, cumplimiento fiscal y recursos administrativos y judiciales."
             },
-            "CIVIL":{
-                "IMG.SOURCE": "???",
-                "TITLE":"Derecho Civil y Mercantil",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "CIVIL": {
+                "IMG.SOURCE": "",
+                "TITLE": "Derecho Civil y Mercantil",
+                "SUBTITLE": "Normativas legales relacionadas con el derecho civil y mercantil en México. Esto incluye contratos civiles y comerciales, propiedad, sucesiones, obligaciones y responsabilidades contractuales, así como disputas comerciales, regulaciones de sociedades y procedimientos de quiebra."
             },
-            "CORPORATE":{
-                "IMG.SOURCE": "???",
-                "TITLE":"Derecho Corporativo y empresarial",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "CORPORATE": {
+                "IMG.SOURCE": "",
+                "TITLE": "Derecho Corporativo y Empresarial",
+                "SUBTITLE": "Aspectos legales de las empresas y corporaciones en México. Esto abarca la creación de empresas, estructuras corporativas, gobierno corporativo, fusiones y adquisiciones, contratos comerciales, protección de inversiones, propiedad intelectual, competencia económica, cumplimiento normativo y responsabilidad social empresarial."
             },
-            "FAMILY":{
-                "IMG.SOURCE": "???",
-                "TITLE":"Derecho Familiar",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "FAMILY": {
+                "IMG.SOURCE": "",
+                "TITLE": "Derecho Familiar",
+                "SUBTITLE": "Legislación mexicana relacionada con asuntos familiares y de sucesión. Esto incluye matrimonio, divorcio, patria potestad, custodia, alimentos, filiación, adopción, tutela, sucesiones, testamentos y procedimientos de familia, así como derechos y protección de menores y grupos vulnerables."
             }
         }
     },

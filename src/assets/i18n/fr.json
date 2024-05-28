@@ -29,35 +29,36 @@
         "TITLE": "Expertise?",
         "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
         "BUTTON.LABEL": "Take an appointment?",
-        "CARDS":{
-            "LABOUR":{
-                "IMG.SOURCE": "???",
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+        "CARDS": {
+            "LABOUR": {
+                "IMG.SOURCE": "",
+                "TITLE": "Droit du Travail",
+                "SUBTITLE": "Réglementations légales et relations de travail dans le cadre juridique mexicain. Inclut les lois, les règlements et les précédents judiciaires liés aux contrats de travail, aux syndicats, à la sécurité sociale, aux salaires minimums, aux conditions de travail et aux droits des travailleurs."
             },
-            "PENAL":{
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "PENAL": {
+                "IMG.SOURCE": "",
+                "TITLE": "Droit Procédural Pénal",
+                "SUBTITLE": "Procédures légales dans les affaires pénales sous la juridiction mexicaine. Couvre le processus judiciaire de l'enquête initiale au procès et à la condamnation, y compris les garanties constitutionnelles, les procédures d'enquête, les poursuites, la défense, les preuves, les recours légaux et l'exécution des peines."
             },
-            "FISCAL":{
-                "IMG.SOURCE": "???",
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "FISCAL": {
+                "IMG.SOURCE": "",
+                "TITLE": "Droit Fiscal",
+                "SUBTITLE": "Lois et réglementations fiscales applicables au Mexique, couvrant les impôts fédéraux, étatiques et municipaux. Comprend les réglementations sur l'impôt sur le revenu, la taxe sur la valeur ajoutée (TVA), les impôts commerciaux, les douanes, les procédures d'audit fiscal, la conformité fiscale et les recours administratifs et judiciaires."
             },
-            "CIVIL":{
-                "IMG.SOURCE": "???",
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "CIVIL": {
+                "IMG.SOURCE": "",
+                "TITLE": "Droit Civil et Commercial",
+                "SUBTITLE": "Réglementations légales liées au droit civil et commercial au Mexique. Cela comprend les contrats civils et commerciaux, la propriété, les successions, les obligations contractuelles et les responsabilités, ainsi que les litiges commerciaux, les réglementations d'entreprise et les procédures de faillite."
             },
-            "CORPORATE":{
-                "IMG.SOURCE": "???",
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "CORPORATE": {
+                "IMG.SOURCE": "",
+                "TITLE": "Droit des Sociétés et des Affaires",
+                "SUBTITLE": "Aspects juridiques des entreprises et des sociétés au Mexique. Cela englobe la formation d'entreprise, les structures d'entreprise, la gouvernance d'entreprise, les fusions et acquisitions, les contrats commerciaux, la protection des investissements, la propriété intellectuelle, le droit de la concurrence, la conformité et la responsabilité sociale des entreprises."
             },
-            "FAMILY":{
-                "IMG.SOURCE": "???",
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "FAMILY": {
+                "IMG.SOURCE": "",
+                "TITLE": "Droit de la Famille",
+                "SUBTITLE": "Législation mexicaine relative aux affaires familiales et successorales. Cela inclut le mariage, le divorce, l'autorité parentale, la garde, la pension alimentaire, la filiation, l'adoption, la tutelle, les successions, les testaments et les procédures familiales, ainsi que les droits et la protection des mineurs et des groupes vulnérables."
             }
         }
     },

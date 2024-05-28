@@ -29,35 +29,36 @@
         "TITLE": "Areas of practice",
         "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
         "BUTTON.LABEL": "Take an appointment?",
-        "CARDS":{
-            "LABOUR":{
-                "IMG.SOURCE": "???",
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+        "CARDS": {
+            "LABOUR": {
+                "IMG.SOURCE": "",
+                "TITLE": "Labor Law",
+                "SUBTITLE": "Legal regulations and labor relations within the Mexican legal framework. Includes laws, regulations, and judicial precedents related to employment contracts, labor unions, social security, minimum wages, working conditions, and workers' rights."
             },
-            "PENAL":{
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "PENAL": {
+                "IMG.SOURCE": "",
+                "TITLE": "Criminal Procedural Law",
+                "SUBTITLE": "Legal procedures in criminal cases under the Mexican jurisdiction. Covers the judicial process from initial investigation to trial and sentencing, including constitutional guarantees, investigation procedures, prosecution, defense, evidence, legal remedies, and penalty enforcement."
             },
-            "FISCAL":{
-                "IMG.SOURCE": "???",
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "FISCAL": {
+                "IMG.SOURCE": "",
+                "TITLE": "Tax Law",
+                "SUBTITLE": "Applicable tax laws and regulations in Mexico, covering federal, state, and municipal taxes. Includes regulations on income tax, value-added tax (VAT), business taxes, customs, tax audit procedures, tax compliance, and administrative and judicial remedies."
             },
-            "CIVIL":{
-                "IMG.SOURCE": "???",
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "CIVIL": {
+                "IMG.SOURCE": "",
+                "TITLE": "Civil and Commercial Law",
+                "SUBTITLE": "Legal regulations related to civil and commercial law in Mexico. This includes civil and commercial contracts, property, successions, contractual obligations and liabilities, as well as commercial disputes, company regulations, and bankruptcy procedures."
             },
-            "CORPORATE":{
-                "IMG.SOURCE": "???",
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "CORPORATE": {
+                "IMG.SOURCE": "",
+                "TITLE": "Corporate and Business Law",
+                "SUBTITLE": "Legal aspects of companies and corporations in Mexico. This encompasses company formation, corporate structures, corporate governance, mergers and acquisitions, commercial contracts, investment protection, intellectual property, competition law, compliance, and corporate social responsibility."
             },
-            "FAMILY":{
-                "IMG.SOURCE": "???",
-                "TITLE":"slkdnsd",
-                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            "FAMILY": {
+                "IMG.SOURCE": "",
+                "TITLE": "Family Law",
+                "SUBTITLE": "Mexican legislation related to family and succession matters. This includes marriage, divorce, parental authority, custody, alimony, filiation, adoption, guardianship, successions, wills, and family procedures, as well as rights and protection of minors and vulnerable groups."
             }
         }
     },
