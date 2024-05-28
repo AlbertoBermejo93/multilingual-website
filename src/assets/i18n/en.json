@@ -9,7 +9,7 @@
     "NAVBAR": {
         "LINK.HOME": "Home",
         "LINK.SERVICES": "Services",
-        "LINK.SPECIALTIES": "Specialties",
+        "LINK.SPECIALTIES": "Areas of practice",
         "LINK.ABOUT": "About",
         "LINK.CONTACT": "Contact us",
         "LINK.PHONE.INFO": "Call us at",
@@ -26,7 +26,7 @@
 
     },
     "SPECIALTY": {
-        "TITLE": "Expertise?",
+        "TITLE": "Areas of practice",
         "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
         "BUTTON.LABEL": "Take an appointment?",
         "CARDS":{
@@ -39,7 +39,7 @@
                 "TITLE":"slkdnsd",
                 "SUBTITLE": "SIKDSKD?SKD?SK?D"
             },
-            "IMMIGRATION":{
+            "FISCAL":{
                 "IMG.SOURCE": "???",
                 "TITLE":"slkdnsd",
                 "SUBTITLE": "SIKDSKD?SKD?SK?D"
@@ -70,7 +70,42 @@
         "TITLE.CARD.STEPS": "Taking steps forward",
         "DESCRIPTION.CARD.STEPS": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
         "TITLE.CARD.SUCCESS": "Court Of Law Success",
-        "DESCRIPTION.CARD.SUCCESS": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard."
+        "DESCRIPTION.CARD.SUCCESS": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "LIST":{
+            "PAGE.TITLE":"Servicios",
+            "PAGE.SUBTITLE":"Servicios de Asesoría Jurídica en México Distrito Federal y Estado de México",
+            "PAGE.DESCRIPTION":"Nuestro equipo de abogados cuenta con conocimientos profundos en las distintas ramas del derecho, por lo que podemos brindarle a usted servicios legales de alta calidad, de forma oportuna, transparente y eficaz, para asuntos en materia familiar, civil, penal, laboral, mercantil, laboral, administrativa y juicios de amparo. ",
+            "SERVICES": {
+                "FAMILY": {
+                    "TITLE": "Family Law Services",
+                    "DESCRIPTION": "The law includes certain rules and regulations that directly affect the formation, dissolution, and organization of the family unit. Our lawyers will use the current legal frameworks to help you resolve any legal conflict in family matters."
+                },
+                "CIVIL": {
+                    "TITLE": "Civil Law Services",
+                    "DESCRIPTION": "Relationships between individuals (whether voluntary or obligatory) generate interests that are governed by civil law. This specialized branch of our services is responsible for regulating and preserving the personal and property interests of individuals."
+                },
+                "PENAL": {
+                    "TITLE": "Criminal Law Services",
+                    "DESCRIPTION": "This branch of our services is responsible for analyzing and utilizing the rules that regulate the determination of behaviors classified as crimes, as well as their investigation, prosecution, and penalties, to ensure the rights of victims and accused are respected."
+                },
+                "LABOR": {
+                    "TITLE": "Labor Law Services",
+                    "DESCRIPTION": "This branch of our services is responsible for intervening and resolving all situations arising from labor relations, in accordance with the provisions of the Federal Labor Law or the Federal Law of Workers in the Service of the State, as the case may be."
+                },
+                "COMMERCIAL": {
+                    "TITLE": "Commercial Law Services",
+                    "DESCRIPTION": "In this specialized branch of our services, a lawyer will be responsible for advising and resolving all legal aspects of your commercial activities (invoicing, collection, debts, commercial lawsuits), through the applicable legal provisions."
+                },
+                "ADMINISTRATIVE": {
+                    "TITLE": "Administrative Law Services",
+                    "DESCRIPTION": "A specialist will help you ensure that your activities (construction, modifications, opening businesses and establishments, etc.) comply with the requirements established by administrative laws."
+                },
+                "AMPARO": {
+                    "TITLE": "Amparo Trial",
+                    "DESCRIPTION": "Our lawyers will file amparo lawsuits to exercise your constitutional rights and protect you against possible abuses or damages caused by regulations, sanctions, laws, acts, or omissions by public authorities."
+                }
+            }
+        }
     },
     "ABOUT": {
         "TITLE": "About Us",
@@ -105,7 +140,7 @@
         "LINKS.TITLE": "Useful links",
         "LINKS.HOME": "Home",
         "LINKS.SERVICES": "Services",
-        "LINKS.SPECIALTIES": "Specialties ??",
+        "LINKS.SPECIALTIES": "Areas of practice",
         "LINKS.ABOUT": "About Us",
         "LINKS.CONTACT": "Contact",
         "LINKS.HELP.TITLE": "Support",

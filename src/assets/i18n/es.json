@@ -1,9 +1,155 @@
 {
     "HOME": {
-        "GREETING": "Hola {{value}}",
-        "GREETING.SUBTITLE": "Abogados Profesionales",
-        "GREETING.DESCRIPTION": "Los mejores abogados de toda la peninsula",
-        "GREETING.BUTTON": "Toma cita"
+        "GREETING": "Welcome {{value}}",
+        "GREETING.SUBTITLE": "Professional lawyers",
+        "GREETING.DESCRIPTION": "The best firm in all Mexico",
+        "GREETING.BUTTON": "Take an appointment"
+
+    },
+    "NAVBAR": {
+        "LINK.HOME": "Home",
+        "LINK.SERVICES": "Services",
+        "LINK.SPECIALTIES": "Áreas de práctica",
+        "LINK.ABOUT": "About",
+        "LINK.CONTACT": "Contact us",
+        "LINK.PHONE.INFO": "Call us at",
+        "LINK.PHONE.NUMBER": "+529999859616",
+        "LINK.EMAIL.INFO": "Email to",
+        "LINK.EMAIL.ADRESS": "abg.contacto@gmail.com"
+    },
+    "HERO": {
+        "TITLE.PHRASE.ONE": "Expertise?",
+        "TITLE.PHRASE.TWO": "Professionalism?",
+        "TITLE.PHRASE.THREE": "Quality of service?",
+        "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
+        "BUTTON.LABEL": "Take an appointment?"
+
+    },
+    "SPECIALTY": {
+        "TITLE": "Áreas de práctica",
+        "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
+        "BUTTON.LABEL": "Ver todas las especialidades",
+        "CARDS":{
+            "LABOUR":{
+                "IMG.SOURCE": "???",
+                "TITLE":"Derecho del Trabajo",
+                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            },
+            "PENAL":{
+                "IMG.SOURCE": "???",
+                "TITLE":"Derecho Procesal Penal",
+                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            },
+            "FISCAL":{
+                "IMG.SOURCE": "Derecho Fiscal ",
+                "TITLE":"slkdnsd",
+                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            },
+            "CIVIL":{
+                "IMG.SOURCE": "???",
+                "TITLE":"Derecho Civil y Mercantil",
+                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            },
+            "CORPORATE":{
+                "IMG.SOURCE": "???",
+                "TITLE":"Derecho Corporativo y empresarial",
+                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            },
+            "FAMILY":{
+                "IMG.SOURCE": "???",
+                "TITLE":"Derecho Familiar",
+                "SUBTITLE": "SIKDSKD?SKD?SK?D"
+            }
+        }
+    },
+    "SERVICES": {
+        "TITLE": "Legal Services",
+        "SUBTITLE": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme.????",
+        "BUTTON.LABEL": "Ver más",
+        "TITLE.CARD.ANALIZE": "Analizing The Case",
+        "DESCRIPTION.CARD.ANALIZE": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "TITLE.CARD.STEPS": "Taking steps forward",
+        "DESCRIPTION.CARD.STEPS": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "TITLE.CARD.SUCCESS": "Court Of Law Success",
+        "DESCRIPTION.CARD.SUCCESS": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+            "LIST":{
+                "PAGE.TITLE":"Servicios",
+                "PAGE.SUBTITLE":"Servicios de Asesoría Jurídica en México Distrito Federal y Estado de México",
+                "PAGE.DESCRIPTION":"Nuestro equipo de abogados cuenta con conocimientos profundos en las distintas ramas del derecho, por lo que podemos brindarle a usted servicios legales de alta calidad, de forma oportuna, transparente y eficaz, para asuntos en materia familiar, civil, penal, laboral, mercantil, laboral, administrativa y juicios de amparo. ",
+                "SERVICE":{
+                    "FAMILY": {
+                        "TITLE": "Servicios en Materia Familiar",
+                        "DESCRIPTION": "La ley incluye ciertas normas y regulaciones que afectan directamente la constitución, disolución y organización del grupo familiar. Nuestros abogados utilizarán los marcos legales vigentes para ayudarle a solucionar cualquier conflicto legal en materia familiar."
+                    },
+                    "CIVIL": {
+                        "TITLE": "Servicios en Materia Civil",
+                        "DESCRIPTION": "Las relaciones entre individuos (ya sean voluntarias u obligatorias) generan intereses que están normadas por el derecho civil. Esta rama especializada de nuestros servicios se encarga de regular y preservar los intereses personales y patrimoniales de las personas."
+                    },
+                    "PENAL": {
+                        "TITLE": "Servicios en Materia Penal",
+                        "DESCRIPTION": "Esta rama de nuestros servicios se encarga de analizar y hacer uso de las normas que regulan la determinación de conductas tipificadas como delitos, así como su investigación, persecución y sanciones, a fin de que se respeten los derechos de víctimas e inculpados."
+                    },
+                    "LABOR": {
+                        "TITLE": "Servicios en Materia Laboral",
+                        "DESCRIPTION": "Esta rama de nuestros servicios se encarga de intervenir y solucionar todas aquellas situaciones derivadas de las relaciones laborales, conforme a lo establecido en la Ley Federal del trabajo o la Ley Federal de los Trabajadores al Servicio de l Estado, según sea el caso."
+                    },
+                    "COMMERCIAL": {
+                        "TITLE": "Servicios en Materia Mercantil",
+                        "DESCRIPTION": "En esta rama especializada de nuestros servicios, un abogado se encargará de asesorar y solucionar todos los aspectos legales de sus actividades comerciales (facturación cobranza, deudas, juicios mercantiles), por medio de las disposiciones legales vigentes."
+                    },
+                    "ADMINISTRATIVE": {
+                        "TITLE": "Servicios en Materia Administrativa",
+                        "DESCRIPTION": "Un especialista le ayudará a que sus actividades (construcciones, modificaciones, apertura de negocios y establecimientos, etcétera), cumplan con los requisitos establecidos por las leyes administrativas."
+                    },
+                    "AMPARO": {
+                        "TITLE": "Juicio de Amparo",
+                        "DESCRIPTION": "Nuestros abogados promoverán juicios de amparo para ejercer sus derechos constitucionales y para protegerle contra posibles abusos o perjuicios ocasionados por reglamentos, sanciones, leyes, actos u omisiones realizadas por los poderes públicos."
+                    }
+                }
+            }
+    },
+    "ABOUT": {
+        "TITLE": "About Us",
+        "DESCRIPTION": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme.????",
+        "DESCRIPTION.INFO": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme.????",
+        "BUTTON.LABEL": "Make an appointment",
+        "TITLE.CARD.EXPERTISE": "Analizing The Case",
+        "DESCRIPTION.CARD.EXPERTISE": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "TITLE.CARD.PROFESSIONALISM": "Taking steps forward",
+        "DESCRIPTION.CARD.PROFESSIONALISM": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "TITLE.CARD.SERVICE": "Court Of Law Success",
+        "DESCRIPTION.CARD.SERVICE": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard."
+    },
+    "CONTACT": {
+        "TITLE": "Get In Touch",
+        "SUBTITLE": "Ask for an appointment and we will schedule a consultation at the date and time of your choice.",
+        "ADDRESS.DESCRIPTION": "You can find us here",
+        "ADDRESS.DETAILS": "Av. Cobá 12, 77500 Cancún, Q.R., México.",
+        "EMAIL.PLACEHOLDER": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "EMAIL.SUBJECT.PLACEHOLDER": "Taking steps forward",
+        "EMAILS.MESSAGE.PLACEHOLDER": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
+        "BUTTON.LABEL": "Get in touch"
+    },  
+    "FOOTER": {
+        "INFO.ADDRESS": "Find Us",
+        "INFO.ADDRESS.DETAILS": "Av. Cobá 12, 77500 Cancún, Q.R., México",
+        "INFO.PHONE": "Call Us",
+        "INFO.PHONE.DETAILS": "+559988-652643",
+        "INFO.EMAIL": "Write to us at",
+        "INFO.EMAIL .DETAILS": "abg.contacto@gmail.com",
+        "INFO.DESCRIPTION": "Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.",
+        "LINKS.TITLE": "Useful links",
+        "LINKS.HOME": "Home",
+        "LINKS.SERVICES": "Services",
+        "LINKS.SPECIALTIES": "Áreas de práctica",
+        "LINKS.ABOUT": "About Us",
+        "LINKS.CONTACT": "Contact",
+        "LINKS.HELP.TITLE": "Support",
+        "LINKS.HELP.FAQ": "FAQ",
+        "LINKS.HELP.CONDITIONS": "Terms & Conditions",
+        "LINKS.HELP.SUPPORT.POLICY": "Support policy",
+        "LINKS.HELP.PRIVACY": "Privacy policy"
 
     }
+   
 }
