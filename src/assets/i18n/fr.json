@@ -18,7 +18,7 @@
         "LINK.EMAIL.ADRESS": "abg.contacto@gmail.com"
     },
     "HERO": {
-        "TITLE.PHRASE.ONE": "Expertise?",
+        "TITLE.PHRASE.ONE": "Phrase Hero 1ere",
         "TITLE.PHRASE.TWO": "Professionalism?",
         "TITLE.PHRASE.THREE": "Quality of service?",
         "SUBTITLE": "Conseil juridique avec l'humain au coeur de notre métier????",
@@ -26,7 +26,7 @@
 
     },
     "SPECIALTY": {
-        "TITLE": "Expertise?",
+        "TITLE": "Domaine de spécialité",
         "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
         "BUTTON.LABEL": "Take an appointment?",
         "CARDS": {
@@ -63,7 +63,7 @@
         }
     },
     "SERVICES": {
-        "TITLE": "Legal Services",
+        "TITLE": "Services Légales ?? ",
         "SUBTITLE": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme.????",
         "BUTTON.LABEL": "See more",
         "TITLE.CARD.ANALIZE": "Analizing The Case",
@@ -109,7 +109,7 @@
         }
     },
     "ABOUT": {
-        "TITLE": "About Us",
+        "TITLE": "À propos de nous",
         "DESCRIPTION": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme.????",
         "DESCRIPTION.INFO": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme.????",
         "BUTTON.LABEL": "Make an appointment",
@@ -121,7 +121,7 @@
         "DESCRIPTION.CARD.SERVICE": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard."
     },
     "CONTACT": {
-        "TITLE": "Get In Touch",
+        "TITLE": "Contectez-nous",
         "SUBTITLE": "Ask for an appointment and we will schedule a consultation at the date and time of your choice.",
         "ADDRESS.DESCRIPTION": "You can find us here",
         "ADDRESS.DETAILS": "Av. Cobá 12, 77500 Cancún, Q.R., México.",
@@ -138,7 +138,7 @@
         "INFO.EMAIL": "Write to us at",
         "INFO.EMAIL .DETAILS": "abg.contacto@gmail.com",
         "INFO.DESCRIPTION": "Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.",
-        "LINKS.TITLE": "Useful links",
+        "LINKS.TITLE": "Liens utiles",
         "LINKS.HOME": "Home",
         "LINKS.SERVICES": "Services",
         "LINKS.SPECIALTIES": "Specialties ??",
