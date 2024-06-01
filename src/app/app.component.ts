@@ -7,27 +7,30 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'abogados';
-  param = { value: 'world' };
-  currentLang = this.translate.currentLang;
-
   constructor(private translate: TranslateService) {
-    // this language will be used as a fallback when a translation isn't found in the current language
-    translate.setDefaultLang('en');
-
-    // the lang to use, if the lang isn't available, it will use the current loader to get them
-    translate.use('en');
+    // Load the saved language from localStorage when the application initializes
+    const savedLanguage = localStorage.getItem('appLanguage');
+    if (savedLanguage) {
+      this.translate.use(savedLanguage);
+    } else {
+      // Set the default language if no language is saved in localStorage
+      this.translate.setDefaultLang('en');
+      localStorage.setItem('appLanguage', 'en');
+    }
   }
 
   switchToEnglish() {
     this.translate.use('en');
+    localStorage.setItem('appLanguage', 'en');
   }
 
   switchToSpanish() {
     this.translate.use('es');
+    localStorage.setItem('appLanguage', 'es');
   }
 
   switchToFrench() {
     this.translate.use('fr');
+    localStorage.setItem('appLanguage', 'fr');
   }
 }

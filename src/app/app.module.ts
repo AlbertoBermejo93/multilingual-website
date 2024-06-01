@@ -18,7 +18,17 @@ export function HttpLoaderFactory(http: HttpClient) {
 }
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, HeaderComponent, FooterComponent, HeroComponent, PracticeAreaComponent, ServicesComponent, AboutComponent, ContactComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    HeroComponent,
+    PracticeAreaComponent,
+    ServicesComponent,
+    AboutComponent,
+    ContactComponent,
+  ],
   imports: [
     BrowserModule,
     HttpClientModule,

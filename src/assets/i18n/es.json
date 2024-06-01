@@ -1,8 +1,8 @@
 {
     "HOME": {
         "GREETING": "Welcome {{value}}",
-        "GREETING.SUBTITLE": "Professional lawyers",
-        "GREETING.DESCRIPTION": "The best firm in all Mexico",
+        "GREETING.SUBTITLE": "Abogados",
+        "GREETING.DESCRIPTION": "Los mejores en emxicoo",
         "GREETING.BUTTON": "Take an appointment"
 
     },
@@ -10,8 +10,8 @@
         "LINK.HOME": "Home",
         "LINK.SERVICES": "Services",
         "LINK.SPECIALTIES": "Áreas de práctica",
-        "LINK.ABOUT": "About",
-        "LINK.CONTACT": "Contact us",
+        "LINK.ABOUT": "Sobre nosotros",
+        "LINK.CONTACT": "Contacto",
         "LINK.PHONE.INFO": "Call us at",
         "LINK.PHONE.NUMBER": "+529999859616",
         "LINK.EMAIL.INFO": "Email to",
@@ -21,7 +21,7 @@
         "TITLE.PHRASE.ONE": "Expertise?",
         "TITLE.PHRASE.TWO": "Professionalism?",
         "TITLE.PHRASE.THREE": "Quality of service?",
-        "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
+        "SUBTITLE": "Consejo legal siempre pensando en el humano ????",
         "BUTTON.LABEL": "Take an appointment?"
 
     },
