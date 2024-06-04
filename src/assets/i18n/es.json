@@ -12,17 +12,21 @@
         "LINK.SPECIALTIES": "Áreas de práctica",
         "LINK.ABOUT": "Sobre nosotros",
         "LINK.CONTACT": "Contacto",
-        "LINK.PHONE.INFO": "Call us at",
+        "LINK.LANGUAGE.LABEL": "Idioma",
+        "LINK.LANGUAGE.ENGLISH": "Inglés",
+        "LINK.LANGUAGE.SPANISH": "Español",
+        "LINK.LANGUAGE.FRENCH": "Francés",
+        "LINK.PHONE.INFO": "Llámanos al",
         "LINK.PHONE.NUMBER": "+529999859616",
-        "LINK.EMAIL.INFO": "Email to",
+        "LINK.EMAIL.INFO": "Correo electrónico",
         "LINK.EMAIL.ADRESS": "abg.contacto@gmail.com"
     },
     "HERO": {
         "TITLE.PHRASE.ONE": "Frase 1era de Heroe",
         "TITLE.PHRASE.TWO": "Professionalism?",
         "TITLE.PHRASE.THREE": "Quality of service?",
-        "SUBTITLE": "Consejo legal siempre pensando en el humano ????",
-        "BUTTON.LABEL": "Take an appointment?"
+        "SUBTITLE": "Asesoramiento y defensa jurídica, velando siempre por el respeto al ser humano.",
+        "BUTTON.LABEL": "Solicite una cita"
 
     },
     "SPECIALTY": {

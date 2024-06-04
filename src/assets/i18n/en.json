@@ -12,17 +12,21 @@
         "LINK.SPECIALTIES": "Areas of practice",
         "LINK.ABOUT": "About",
         "LINK.CONTACT": "Contact us",
+        "LINK.LANGUAGE.LABEL": "Language",
+        "LINK.LANGUAGE.ENGLISH": "English",
+        "LINK.LANGUAGE.SPANISH": "Spanish",
+        "LINK.LANGUAGE.FRENCH": "French",
         "LINK.PHONE.INFO": "Call us at",
         "LINK.PHONE.NUMBER": "+529999859616",
         "LINK.EMAIL.INFO": "Email to",
         "LINK.EMAIL.ADRESS": "abg.contacto@gmail.com"
     },
     "HERO": {
-        "TITLE.PHRASE.ONE": "Phrase Hero 1st",
-        "TITLE.PHRASE.TWO": "Professionalism?",
-        "TITLE.PHRASE.THREE": "Quality of service?",
-        "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
-        "BUTTON.LABEL": "Take an appointment?"
+        "TITLE.PHRASE.ONE": "Expertise",
+        "TITLE.PHRASE.TWO": "Professionalism",
+        "TITLE.PHRASE.THREE": "High Quality of Service",
+        "SUBTITLE": "Legal advice and defense, always ensuring respect for the welfare of the human being.",
+        "BUTTON.LABEL": "Make an appointment"
 
     },
     "SPECIALTY": {

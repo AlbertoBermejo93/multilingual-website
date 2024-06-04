@@ -12,17 +12,21 @@
         "LINK.SPECIALTIES": "Domaines d'activité",
         "LINK.ABOUT": "À propos de nous",
         "LINK.CONTACT": "Contactez-nous",
-        "LINK.PHONE.INFO": "Call us at",
+        "LINK.LANGUAGE.LABEL": "Langage",
+        "LINK.LANGUAGE.ENGLISH": "Anglais",
+        "LINK.LANGUAGE.SPANISH": "Espagnol",
+        "LINK.LANGUAGE.FRENCH": "Français",
+        "LINK.PHONE.INFO": "Appelez-nous au",
         "LINK.PHONE.NUMBER": "+529999859616",
-        "LINK.EMAIL.INFO": "Email to",
+        "LINK.EMAIL.INFO": "Envoyer un e-mail à",
         "LINK.EMAIL.ADRESS": "abg.contacto@gmail.com"
     },
     "HERO": {
-        "TITLE.PHRASE.ONE": "Phrase Hero 1ere",
-        "TITLE.PHRASE.TWO": "Professionalism?",
-        "TITLE.PHRASE.THREE": "Quality of service?",
-        "SUBTITLE": "Conseil juridique avec l'humain au coeur de notre métier????",
-        "BUTTON.LABEL": "Take an appointment?"
+        "TITLE.PHRASE.ONE": "Savoir-faire",
+        "TITLE.PHRASE.TWO": "Professionalisme",
+        "TITLE.PHRASE.THREE": "Grande qualité de service",
+        "SUBTITLE": "Conseil et défense juridique en veillant toujours pour le respect de l'être humain.",
+        "BUTTON.LABEL": "Solliciter un rendez-vous"
 
     },
     "SPECIALTY": {

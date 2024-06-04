@@ -11,6 +11,7 @@ import { PracticeAreaComponent } from './layout/practice-area/practice-area.comp
 import { ServicesComponent } from './layout/services/services.component';
 import { AboutComponent } from './layout/about/about.component';
 import { ContactComponent } from './layout/contact/contact.component';
+import { HeaderComponent } from './layout/header/header.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -26,6 +27,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ServicesComponent,
     AboutComponent,
     ContactComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
