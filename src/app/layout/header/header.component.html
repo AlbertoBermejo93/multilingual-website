@@ -79,13 +79,19 @@
         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-500 rounded-box w-52"
       >
         <li (click)="switchToEnglish()">
-          <p class="text-slate-50">English</p>
+          <p class="text-slate-50">
+            {{ "NAVBAR.LINK.LANGUAGE.ENGLISH" | translate }}
+          </p>
         </li>
         <li (click)="switchToSpanish()">
-          <p class="text-slate-50">Spanish</p>
+          <p class="text-slate-50">
+            {{ "NAVBAR.LINK.LANGUAGE.SPANISH" | translate }}
+          </p>
         </li>
         <li (click)="switchToFrench()">
-          <p class="text-slate-50">French</p>
+          <p class="text-slate-50">
+            {{ "NAVBAR.LINK.LANGUAGE.FRENCH" | translate }}
+          </p>
         </li>
       </ul>
     </div>
@@ -140,7 +146,7 @@
   </div>
 </div>
 <div
-  class="flex align-middle justify-end bg-slate-600 max-sm:justify-center px-5 whitespace-nowrap overflow-hidden text-ellipsis"
+  class="flex max-sm:flex-col align-middle justify-end max-sm:text-end bg-slate-600 px-5 whitespace-nowrap overflow-hidden text-ellipsis"
 >
   <p class="text-xs px-2 text-slate-50">
     {{ "NAVBAR.LINK.PHONE.INFO" | translate }}:

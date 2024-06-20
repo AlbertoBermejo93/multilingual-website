@@ -1,1 +1,33 @@
-<h3>hero section - >{{ "HERO.TITLE.PHRASE.ONE" | translate }}</h3>
+<div class="relative w-full h-screen">
+  <div
+    class="absolute inset-0 bg-cover bg-center md:bg-none"
+    style="
+      background-image: url('../../../assets/images/ai-generated-lady-of-justice.jpg');
+      z-index: -1;
+    "
+  >
+    <div class="absolute inset-0 bg-black opacity-30"></div>
+  </div>
+
+  <div class="relative flex justify-center items-center h-full px-4">
+    <div class="px-3 text-left">
+      <h1 class="text-3xl md:text-6xl tracking-wide text-white my-1">
+        {{ "HERO.TITLE.PHRASE.ONE" | translate }}
+      </h1>
+      <h1 class="text-3xl md:text-6xl tracking-wide text-white my-1">
+        {{ "HERO.TITLE.PHRASE.TWO" | translate }}
+      </h1>
+      <h1 class="text-3xl md:text-6xl tracking-wide text-white my-1">
+        {{ "HERO.TITLE.PHRASE.THREE" | translate }}
+      </h1>
+      <h4 class="text-base md:text-lg text-gray-100 my-5">
+        {{ "HERO.SUBTITLE" | translate }}
+      </h4>
+      <div class="text-center py-3">
+        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
+          {{ "HERO.BUTTON.LABEL" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
