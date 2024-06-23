@@ -30,9 +30,9 @@
 
     },
     "SPECIALTY": {
-        "TITLE": "Domaine de spécialité",
-        "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
-        "BUTTON.LABEL": "Take an appointment?",
+        "TITLE": "Domaines de spécialité",
+        "SUBTITLE": "Nos avocats sont spécialisés dans un grand nombre de domaines juridiques. Notre équipe se tient toujours au courant des dernières évolutions du droit afin de fournir des conseils de qualité.",
+        "BUTTON.LABEL": "En savoir plus",
         "CARDS": {
             "LABOUR": {
                 "IMG.SOURCE": "",

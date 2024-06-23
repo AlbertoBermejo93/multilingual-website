@@ -31,8 +31,8 @@
     },
     "SPECIALTY": {
         "TITLE": "Áreas de práctica",
-        "SUBTITLE": "Legal advice and legal defense always thinking about the human ????",
-        "BUTTON.LABEL": "Ver todas las especialidades",
+        "SUBTITLE": "Nuestros abogados están especializados en una amplia gama de áreas jurídicas. Nuestro equipo se mantiene siempre al día de las últimas novedades legislativas para ofrecer un asesoramiento de alta calidad.",
+        "BUTTON.LABEL": "Leer más",
         "CARDS": {
             "LABOUR": {
                 "IMG.SOURCE": "",
