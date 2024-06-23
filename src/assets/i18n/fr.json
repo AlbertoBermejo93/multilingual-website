@@ -67,14 +67,14 @@
         }
     },
     "SERVICES": {
-        "TITLE": "Services Légales ?? ",
+        "TITLE": "Services juridiques",
         "SUBTITLE": "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme.????",
         "BUTTON.LABEL": "See more",
-        "TITLE.CARD.ANALIZE": "Analizing The Case",
+        "TITLE.CARD.ANALIZE": "Analyse de l'affaire",
         "DESCRIPTION.CARD.ANALIZE": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
-        "TITLE.CARD.STEPS": "Taking steps forward",
+        "TITLE.CARD.STEPS": "Franchir les étapes",
         "DESCRIPTION.CARD.STEPS": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
-        "TITLE.CARD.SUCCESS": "Court Of Law Success",
+        "TITLE.CARD.SUCCESS": "Réussite judiciaire",
         "DESCRIPTION.CARD.SUCCESS": "Lorem ipsum Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.",
         "LIST":{
             "PAGE.TITLE":"Servicios",
