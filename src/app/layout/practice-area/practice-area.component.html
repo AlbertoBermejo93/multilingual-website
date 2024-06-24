@@ -1,5 +1,5 @@
-<div class="py-3">
-  <div class="text-center">
+<div id="practice" class="flex flex-col justify-center items-center">
+  <div class="text-center pt-28">
     <article class="text-center">
       <h1 class="text-3xl md:text-6xl tracking-wide py-5 font-semibold">
         {{ "SPECIALTY.TITLE" | translate }}
@@ -20,100 +20,25 @@
   <div
     class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center my-4"
   >
-    <div class="card card-compact w-96 bg-base-100 shadow-xl">
+    <div
+      *ngFor="let card of cards"
+      class="card card-compact bg-base-100 shadow-xl max-w-96"
+    >
       <figure>
         <img
-          src="../../../assets/images/labor.jpg"
-          alt="Shoes"
+          src="{{ card.img }}"
+          alt="law"
           loading="lazy"
-          class="max-w-[400px] h-[280px]"
+          class="max-w-96 h-[280px]"
         />
       </figure>
-      <div class="card-body text-center">
+      <div
+        class="card-body max-w-96 h-[260px] flex flex-col justify-center items-center"
+      >
         <h2 class="text-3xl font-semibold my3">
-          {{ "SPECIALTY.CARDS.LABOUR.TITLE" | translate }}
+          {{ card.title | translate }}
         </h2>
-        <p>{{ "SPECIALTY.CARDS.LABOUR.SUBTITLE" | translate }}</p>
-      </div>
-    </div>
-    <div class="card card-compact w-96 bg-base-100 shadow-xl">
-      <figure>
-        <img
-          src="../../../assets/images/criminal.jpg"
-          alt="Shoes"
-          loading="lazy"
-          class="max-w-[400px] h-[280px]"
-        />
-      </figure>
-      <div class="card-body text-center">
-        <h2 class="text-3xl font-semibold my3">
-          {{ "SPECIALTY.CARDS.PENAL.TITLE" | translate }}
-        </h2>
-        <p>{{ "SPECIALTY.CARDS.PENAL.SUBTITLE" | translate }}</p>
-      </div>
-    </div>
-    <div class="card card-compact w-96 bg-base-100 shadow-xl">
-      <figure>
-        <img
-          src="../../../assets/images/tax.jpg"
-          alt="Shoes"
-          loading="lazy"
-          class="max-w-[400px] h-[280px]"
-        />
-      </figure>
-      <div class="card-body text-center">
-        <h2 class="text-3xl font-semibold my3">
-          {{ "SPECIALTY.CARDS.FISCAL.TITLE" | translate }}
-        </h2>
-        <p>{{ "SPECIALTY.CARDS.FISCAL.SUBTITLE" | translate }}</p>
-      </div>
-    </div>
-    <div class="card card-compact w-96 bg-base-100 shadow-xl">
-      <figure>
-        <img
-          src="../../../assets/images/civil.jpg"
-          alt="Shoes"
-          loading="lazy"
-          class="max-w-[400px] h-[280px]"
-        />
-      </figure>
-      <div class="card-body text-center">
-        <h2 class="text-3xl font-semibold my3">
-          {{ "SPECIALTY.CARDS.CIVIL.TITLE" | translate }}
-        </h2>
-        <p>{{ "SPECIALTY.CARDS.CIVIL.SUBTITLE" | translate }}</p>
-      </div>
-    </div>
-    <div class="card card-compact w-96 bg-base-100 shadow-xl">
-      <figure>
-        <img
-          src="../../../assets/images/corporate.jpg"
-          alt="Shoes"
-          loading="lazy"
-          class="max-w-[400px] h-[280px]"
-        />
-      </figure>
-      <div class="card-body text-center">
-        <h2 class="text-3xl font-semibold my3">
-          {{ "SPECIALTY.CARDS.CORPORATE.TITLE" | translate }}
-        </h2>
-        <p>{{ "SPECIALTY.CARDS.CORPORATE.SUBTITLE" | translate }}</p>
-      </div>
-    </div>
-    <div class="card card-compact w-96 bg-base-100 shadow-xl">
-      <figure>
-        <img
-          src="../../../assets/images/family.png"
-          alt="Shoes"
-          loading="lazy"
-          class="max-w-[400px] h-[280px]"
-        />
-      </figure>
-      <div class="card-body text-center">
-        <h2 class="text-3xl font-semibold my3">
-          {{ "SPECIALTY.CARDS.FAMILY.TITLE" | translate }}
-        </h2>
-        <p>{{ "SPECIALTY.CARDS.FAMILY.SUBTITLE" | translate }}</p>
+        <p>{{ card.subtitle | translate }}</p>
       </div>
     </div>
   </div>

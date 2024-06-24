@@ -8,32 +8,32 @@ import { Component } from '@angular/core';
 export class PracticeAreaComponent {
   cards = [
     {
-      img: 'SPECIALTY.CARDS.LABOUR.IMG.SOURCE',
+      img: '/assets/images/labor.jpg',
       title: 'SPECIALTY.CARDS.LABOUR.TITLE',
       subtitle: 'SPECIALTY.CARDS.LABOUR.SUBTITLE',
     },
     {
-      img: 'SPECIALTY.CARDS.PENAL.IMG.SOURCE',
+      img: '/assets/images/criminal.jpg',
       title: 'SPECIALTY.CARDS.PENAL.TITLE',
       subtitle: 'SPECIALTY.CARDS.PENAL.SUBTITLE',
     },
     {
-      img: 'SPECIALTY.CARDS.FISCAL.IMG.SOURCE',
+      img: '/assets/images/tax.jpg',
       title: 'SPECIALTY.CARDS.FISCAL.TITLE',
       subtitle: 'SPECIALTY.CARDS.FISCAL.SUBTITLE',
     },
     {
-      img: 'SPECIALTY.CARDS.CIVIL.IMG.SOURCE',
+      img: '/assets/images/civil.jpg',
       title: 'SPECIALTY.CARDS.CIVIL.TITLE',
       subtitle: 'SPECIALTY.CARDS.CIVIL.SUBTITLE',
     },
     {
-      img: 'SPECIALTY.CARDS.CORPORATE.IMG.SOURCE',
+      img: '/assets/images/corporate.jpg',
       title: 'SPECIALTY.CARDS.CORPORATE.TITLE',
       subtitle: 'SPECIALTY.CARDS.CORPORATE.SUBTITLE',
     },
     {
-      img: 'SPECIALTY.CARDS.FAMILY.IMG.SOURCE',
+      img: '/assets/images/family.png',
       title: 'SPECIALTY.CARDS.FAMILY.TITLE',
       subtitle: 'SPECIALTY.CARDS.FAMILY.SUBTITLE',
     },
