@@ -135,24 +135,24 @@
         "BUTTON.LABEL": "Get in touch"
     },  
     "FOOTER": {
-        "INFO.ADDRESS": "Find Us",
+        "INFO.ADDRESS": "Encuéntrenos",
         "INFO.ADDRESS.DETAILS": "Av. Cobá 12, 77500 Cancún, Q.R., México",
-        "INFO.PHONE": "Call Us",
+        "INFO.PHONE": "Llámanos",
         "INFO.PHONE.DETAILS": "+559988-652643",
-        "INFO.EMAIL": "Write to us at",
+        "INFO.EMAIL": "Escríbanos a",
         "INFO.EMAIL .DETAILS": "abg.contacto@gmail.com",
         "INFO.DESCRIPTION": "Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.",
         "LINKS.TITLE": "Links Utiles",
-        "LINKS.HOME": "Home",
-        "LINKS.SERVICES": "Services",
+        "LINKS.HOME": "Inicio",
+        "LINKS.SERVICES": "Servicios",
         "LINKS.SPECIALTIES": "Áreas de práctica",
-        "LINKS.ABOUT": "About Us",
-        "LINKS.CONTACT": "Contact",
-        "LINKS.HELP.TITLE": "Support",
-        "LINKS.HELP.FAQ": "FAQ",
-        "LINKS.HELP.CONDITIONS": "Terms & Conditions",
-        "LINKS.HELP.SUPPORT.POLICY": "Support policy",
-        "LINKS.HELP.PRIVACY": "Privacy policy"
+        "LINKS.ABOUT": "Quiénes somos",
+        "LINKS.CONTACT": "Contacto",
+        "LINKS.HELP.TITLE": "Soporte",
+        "LINKS.HELP.FAQ": "Preguntas frecuentes",
+        "LINKS.HELP.CONDITIONS": "Condiciones generales",
+        "LINKS.HELP.SUPPORT.POLICY": "Política de asistencia",
+        "LINKS.HELP.PRIVACY": "Política de privacidad"
 
     }
    

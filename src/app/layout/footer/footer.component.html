@@ -1,1 +1,47 @@
-<h3>footer works! {{ "FOOTER.LINKS.TITLE" | translate }}</h3>
+<footer class="footer bg-slate-500 text-base-content p-10">
+  <aside>
+    <a href="#" class=""><img src="/assets/icons/abg.svg" alt="abg logo" /></a>
+    <p class="text-slate-50 text-lg">
+      <!-- {{ "FOOTER.INFO.ADDRESS" | translate }} -->
+      <!-- <br /> -->
+      {{ "FOOTER.INFO.ADDRESS.DETAILS" | translate }}
+    </p>
+  </aside>
+  <nav>
+    <h6 class="footer-title text-slate-50 text-lg">
+      {{ "FOOTER.LINKS.TITLE" | translate }}
+    </h6>
+    <a class="link link-hover text-slate-50 text-lg">{{
+      "FOOTER.LINKS.HOME" | translate
+    }}</a>
+    <a class="link link-hover text-slate-50 text-lg">{{
+      "FOOTER.LINKS.SERVICES" | translate
+    }}</a>
+    <a class="link link-hover text-slate-50 text-lg">{{
+      "FOOTER.LINKS.SPECIALTIES" | translate
+    }}</a>
+    <a class="link link-hover text-slate-50 text-lg">{{
+      "FOOTER.LINKS.ABOUT" | translate
+    }}</a>
+    <a class="link link-hover text-slate-50 text-lg">{{
+      "FOOTER.LINKS.CONTACT" | translate
+    }}</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title text-slate-50 text-lg">
+      {{ "FOOTER.LINKS.HELP.TITLE" | translate }}
+    </h6>
+    <a class="link link-hover text-slate-50 text-lg">{{
+      "FOOTER.LINKS.HELP.FAQ" | translate
+    }}</a>
+    <a class="link link-hover text-slate-50 text-lg">{{
+      "FOOTER.LINKS.HELP.CONDITIONS" | translate
+    }}</a>
+    <a class="link link-hover text-slate-50 text-lg">{{
+      "FOOTER.LINKS.HELP.SUPPORT.POLICY" | translate
+    }}</a>
+    <a class="link link-hover text-slate-50 text-lg">{{
+      "FOOTER.LINKS.HELP.PRIVACY" | translate
+    }}</a>
+  </nav>
+</footer>

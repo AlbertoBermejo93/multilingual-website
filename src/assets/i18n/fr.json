@@ -135,24 +135,24 @@
         "BUTTON.LABEL": "Get in touch"
     },  
     "FOOTER": {
-        "INFO.ADDRESS": "Find Us",
+        "INFO.ADDRESS": "Trouvez-nous",
         "INFO.ADDRESS.DETAILS": "Av. Cobá 12, 77500 Cancún, Q.R., México",
-        "INFO.PHONE": "Call Us",
+        "INFO.PHONE": "Nous appeler",
         "INFO.PHONE.DETAILS": "+559988-652643",
-        "INFO.EMAIL": "Write to us at",
+        "INFO.EMAIL": "Écrivez-nous à",
         "INFO.EMAIL .DETAILS": "abg.contacto@gmail.com",
         "INFO.DESCRIPTION": "Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.",
         "LINKS.TITLE": "Liens utiles",
-        "LINKS.HOME": "Home",
+        "LINKS.HOME": "Accueil",
         "LINKS.SERVICES": "Services",
-        "LINKS.SPECIALTIES": "Specialties ??",
-        "LINKS.ABOUT": "About Us",
+        "LINKS.SPECIALTIES": "Secteur d'activité",
+        "LINKS.ABOUT": "À propos de nous",
         "LINKS.CONTACT": "Contact",
         "LINKS.HELP.TITLE": "Support",
         "LINKS.HELP.FAQ": "FAQ",
-        "LINKS.HELP.CONDITIONS": "Terms & Conditions",
-        "LINKS.HELP.SUPPORT.POLICY": "Support policy",
-        "LINKS.HELP.PRIVACY": "Privacy policy"
+        "LINKS.HELP.CONDITIONS": "Conditions générales",
+        "LINKS.HELP.SUPPORT.POLICY": "Politique d'accompagnement",
+        "LINKS.HELP.PRIVACY": "Politique de confidentialité"
 
     }
    
