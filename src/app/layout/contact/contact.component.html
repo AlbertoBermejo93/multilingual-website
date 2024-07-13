@@ -1,1 +1,68 @@
-<h3>contact works! - >{{ "CONTACT.TITLE" | translate }}</h3>
+<div id="contact" class="min-h-screen flex flex-col justify-center">
+  <div class="text-center">
+    <h1 class="text-3xl md:text-6xl font-semibold">
+      {{ "CONTACT.TITLE" | translate }}!
+    </h1>
+  </div>
+  <div class="flex max-sm:flex-col justify-around p-16">
+    <div class="p-8">
+      <div>
+        <p class="py-3">
+          Let us know how can best serve you. use the contact form to email us
+          or select from the topics below that best fits yoiur needs? <br />
+          It's honor to support you in your journey towards better health.
+        </p>
+      </div>
+      <div class="flex justify-around py-8 bg-slate-100">
+        <div class="px-8">
+          <img src="../../../assets/icons/phone.svg" alt="phone icon" />
+          <p class="font-bold">Call us</p>
+        </div>
+        <div>
+          <p class="font-bold">06.65.65.32.22.22</p>
+          <p class="font-bold">Phone ours:</p>
+          <p class="font-bold">Monday - Friday</p>
+          <p class="font-thin">9:00 am-6:00 pm</p>
+        </div>
+      </div>
+    </div>
+    <div class="w-full max-w-[920px]">
+      <form
+        class="bg-white shadow-md px-8 pt-6 pb-8 mb-4"
+        (submit)="sendEmail($event)"
+      >
+        <label class="input input-bordered flex items-center gap-2">
+          <input
+            type="email"
+            name="user_email"
+            class="grow"
+            placeholder="Email"
+          />
+        </label>
+
+        <label class="input input-bordered flex items-center gap-2">
+          <input type="text" class="grow" name="user_name" placeholder="Name" />
+        </label>
+
+        <label class="input input-bordered flex items-center gap-2">
+          <input
+            type="text"
+            class="grow"
+            name="message_subject"
+            placeholder="Subject"
+          />
+        </label>
+
+        <textarea
+          name="message"
+          placeholder="Enter message"
+          class="textarea textarea-bordered textarea-lg w-full resize-none"
+        ></textarea>
+
+        <div class="text-center">
+          <input class="btn btn-primary" type="submit" value="Send" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

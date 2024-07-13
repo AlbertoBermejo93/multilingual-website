@@ -1,9 +1,11 @@
-<div id="about" class="py-20">
-  <h1 class="text-3xl md:text-6xl font-semibold text-center my-8">
-    {{ "ABOUT.TITLE" | translate }}
-  </h1>
-  <div class="flex max-md:flex-col flex-row items-center justify-between">
-    <div class="text-center basis-1/2 max-md:py-10">
+<div id="about" class="pt-20 min-h-screen">
+  <div
+    class="flex max-md:flex-col flex-row items-center justify-between px-16 md:py-16"
+  >
+    <div class="text-center basis-1/2 sm:px-8">
+      <h1 class="text-3xl md:text-6xl font-semibold text-center py-8">
+        {{ "ABOUT.TITLE" | translate }}
+      </h1>
       <p>{{ "ABOUT.DESCRIPTION" | translate }}</p>
       <br />
       <p>{{ "ABOUT.DESCRIPTION.INFO" | translate }}</p>
@@ -14,7 +16,7 @@
     <img
       src="../../../assets/images/team.jpg"
       alt="lawyers"
-      class="basis-1/2 object-cover h-72 w-96"
+      class="basis-1/2 object-cover h-96 w-96"
     />
   </div>
   <div class="flex max-md:flex-col align-middle justify-evenly p-16">
