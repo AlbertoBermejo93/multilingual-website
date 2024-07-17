@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
+import { NgFor } from '@angular/common';
 
 @Component({
-  selector: 'app-practice-area',
-  templateUrl: './practice-area.component.html',
-  styleUrl: './practice-area.component.scss',
+    selector: 'app-practice-area',
+    templateUrl: './practice-area.component.html',
+    styleUrl: './practice-area.component.scss',
+    standalone: true,
+    imports: [NgFor, TranslateModule],
 })
 export class PracticeAreaComponent {
   cards = [

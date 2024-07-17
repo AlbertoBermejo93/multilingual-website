@@ -8,8 +8,8 @@ describe('PracticeAreaComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [PracticeAreaComponent]
-    })
+    imports: [PracticeAreaComponent]
+})
     .compileComponents();
     
     fixture = TestBed.createComponent(PracticeAreaComponent);

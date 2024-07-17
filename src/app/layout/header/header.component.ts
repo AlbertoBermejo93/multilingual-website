@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateService, TranslateModule } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss',
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrl: './header.component.scss',
+    standalone: true,
+    imports: [TranslateModule],
 })
 export class HeaderComponent {
   constructor(private translate: TranslateService) {
