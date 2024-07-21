@@ -13,10 +13,18 @@ import { AboutComponent } from './layout/about/about.component';
 import { ContactComponent } from './layout/contact/contact.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { InformationComponent } from './layout/information/information.component';
+import { RouterModule, Routes } from '@angular/router';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
+
+const routes: Routes = [
+  { path: 'home', component: HomeComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '**', component: PageNotFoundComponent },
+];
 
 @NgModule({
   declarations: [
@@ -33,6 +41,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   imports: [
     BrowserModule,
+    RouterModule.forRoot(routes, { useHash: false }),
     HttpClientModule,
     TranslateModule.forRoot({
       defaultLanguage: 'en',
@@ -43,6 +52,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       },
     }),
   ],
+  exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent],
 })
