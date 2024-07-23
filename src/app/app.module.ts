@@ -15,6 +15,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { InformationComponent } from './layout/information/information.component';
 import { RouterModule, Routes } from '@angular/router';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { MastheadComponent } from './layout/masthead/masthead.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -38,6 +39,7 @@ const routes: Routes = [
     ContactComponent,
     HeaderComponent,
     InformationComponent,
+    MastheadComponent,
   ],
   imports: [
     BrowserModule,
