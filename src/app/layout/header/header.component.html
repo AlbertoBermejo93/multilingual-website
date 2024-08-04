@@ -1,53 +1,55 @@
-<div class="navbar sticky top-0 z-30 bg-slate-500 w-full shadow-md">
+<div class="navbar bg-slate-50 sticky top-0 z-30 w-full shadow-md">
   <div class="flex-1">
-    <a href="#" class=""><img src="/assets/icons/abg.svg" alt="abg logo" /></a>
+    <a href="#" class=""
+      ><img src="/assets/icons/abg_nobackground.png" alt="abg logo"
+    /></a>
   </div>
   <div class="xl:flex-none">
     <ul class="menu menu-horizontal px-1 max-md:hidden">
       <li>
-        <a href="#" class="text-slate-50 text-lg">{{
+        <a href="#" class="text-slate-600 text-lg">{{
           "NAVBAR.LINK.HOME" | translate
         }}</a>
       </li>
       <li>
-        <a href="#practice" class="text-slate-50 text-lg">{{
+        <a href="#practice" class="text-slate-600 text-lg">{{
           "NAVBAR.LINK.SPECIALTIES" | translate
         }}</a>
       </li>
       <li>
-        <a href="#services" class="text-slate-50 text-lg">{{
+        <a href="#services" class="text-slate-600 text-lg">{{
           "NAVBAR.LINK.SERVICES" | translate
         }}</a>
       </li>
 
       <li>
-        <a href="#about" class="text-slate-50 text-lg">{{
+        <a href="#about" class="text-slate-600 text-lg">{{
           "NAVBAR.LINK.ABOUT" | translate
         }}</a>
       </li>
       <li>
-        <a href="#contact" class="text-slate-50 text-lg">{{
+        <a href="#contact" class="text-slate-600 text-lg">{{
           "NAVBAR.LINK.CONTACT" | translate
         }}</a>
       </li>
       <li>
         <details>
-          <summary class="text-slate-50 text-lg">
+          <summary class="text-slate-600 text-lg">
             {{ "NAVBAR.LINK.LANGUAGE.LABEL" | translate }}
           </summary>
           <ul class="p-2 bg-slate-500 rounded-t-none">
             <li (click)="switchToEnglish()">
-              <p class="text-slate-50 text-lg">
+              <p class="text-slate-600 text-lg">
                 {{ "NAVBAR.LINK.LANGUAGE.ENGLISH" | translate }}
               </p>
             </li>
             <li (click)="switchToSpanish()">
-              <p class="text-slate-50 text-lg">
+              <p class="text-slate-600 text-lg">
                 {{ "NAVBAR.LINK.LANGUAGE.SPANISH" | translate }}
               </p>
             </li>
             <li (click)="switchToFrench()">
-              <p class="text-slate-50 text-lg">
+              <p class="text-slate-600 text-lg">
                 {{ "NAVBAR.LINK.LANGUAGE.FRENCH" | translate }}
               </p>
             </li>
@@ -64,7 +66,7 @@
         <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5 text-slate-50"
+            class="h-5 w-5 text-slate-600"
             fill="none"
             viewBox="0 0 24 24"
           >
@@ -77,20 +79,20 @@
       </div>
       <ul
         tabindex="0"
-        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-500 rounded-box w-52"
+        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-50 rounded-box w-52"
       >
         <li (click)="switchToEnglish()">
-          <p class="text-slate-50">
+          <p class="text-slate-600">
             {{ "NAVBAR.LINK.LANGUAGE.ENGLISH" | translate }}
           </p>
         </li>
         <li (click)="switchToSpanish()">
-          <p class="text-slate-50">
+          <p class="text-slate-600">
             {{ "NAVBAR.LINK.LANGUAGE.SPANISH" | translate }}
           </p>
         </li>
         <li (click)="switchToFrench()">
-          <p class="text-slate-50">
+          <p class="text-slate-600">
             {{ "NAVBAR.LINK.LANGUAGE.FRENCH" | translate }}
           </p>
         </li>
@@ -103,7 +105,7 @@
           class="h-5 w-5"
           fill="none"
           viewBox="0 0 24 24"
-          stroke="white"
+          stroke="#455266"
         >
           <path
             stroke-linecap="round"
@@ -115,30 +117,30 @@
       </div>
       <ul
         tabindex="0"
-        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-500 rounded-box w-52"
+        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-50 rounded-box w-52"
       >
         <li>
-          <a class="text-slate-50" href="#">{{
+          <a class="text-slate-600" href="#">{{
             "NAVBAR.LINK.HOME" | translate
           }}</a>
         </li>
         <li>
-          <a class="text-slate-50" href="#services">{{
+          <a class="text-slate-600" href="#services">{{
             "NAVBAR.LINK.SERVICES" | translate
           }}</a>
         </li>
         <li>
-          <a class="text-slate-50" href="#practice">{{
+          <a class="text-slate-600" href="#practice">{{
             "NAVBAR.LINK.SPECIALTIES" | translate
           }}</a>
         </li>
         <li>
-          <a class="text-slate-50" href="#about">{{
+          <a class="text-slate-600" href="#about">{{
             "NAVBAR.LINK.ABOUT" | translate
           }}</a>
         </li>
         <li>
-          <a class="text-slate-50" href="#contact">{{
+          <a class="text-slate-600" href="#contact">{{
             "NAVBAR.LINK.CONTACT" | translate
           }}</a>
         </li>
@@ -147,7 +149,7 @@
   </div>
 </div>
 <!-- <div
-  class="flex max-sm:flex-col align-middle justify-end max-sm:text-end bg-slate-600 px-5 whitespace-nowrap overflow-hidden text-ellipsis z-10"
+  class="flex max-sm:flex-col align-middle justify-end max-sm:text-end bg-slate-600 p-1 whitespace-nowrap overflow-hidden text-ellipsis sticky top-0 z-30"
 >
   <p class="text-xs px-2 text-slate-50">
     {{ "NAVBAR.LINK.PHONE.INFO" | translate }}:
