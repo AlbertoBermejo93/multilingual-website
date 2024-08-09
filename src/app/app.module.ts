@@ -17,6 +17,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { MastheadComponent } from './layout/masthead/masthead.component';
 import { WorkProcessComponent } from './layout/work-process/work-process.component';
+import { LegalServicesComponent } from './pages/legal-services/legal-services.component';
+import { ConsultationComponent } from './layout/consultation/consultation.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -24,6 +26,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
+  { path: 'legal-services', component: LegalServicesComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ];
@@ -42,10 +45,12 @@ const routes: Routes = [
     InformationComponent,
     MastheadComponent,
     WorkProcessComponent,
+    LegalServicesComponent,
+    ConsultationComponent,
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes, { useHash: false }),
+    RouterModule.forRoot(routes, { scrollPositionRestoration: 'top' }),
     HttpClientModule,
     TranslateModule.forRoot({
       defaultLanguage: 'en',

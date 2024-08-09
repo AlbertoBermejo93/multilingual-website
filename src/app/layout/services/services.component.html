@@ -9,18 +9,18 @@
       </h1>
     </div>
 
-    <div
-      class="flex max-sm:flex-col justify-center sm:px-10 md:px-20 text-lg lg:px-32"
-    >
-      <p class="px-10">{{ "SERVICES.SUBTITLE" | translate }}</p>
-      <button class="btn sm:btn-sm md:btn-md lg:btn-lg my-5 w-auto self-center">
-        {{ "SERVICES.BUTTON.LABEL" | translate }}
-      </button>
+    <div class="max-sm:flex-col sm:px-10 md:px-20 lg:px-32 text-center">
+      <p class="btn md:btn-md lg:btn-lg">
+        <a [routerLink]="['/legal-services']">
+          {{ "SERVICES.BUTTON.LABEL" | translate }}</a
+        >
+      </p>
+      <p class="text-3xl md:text-2xl">{{ "SERVICES.SUBTITLE" | translate }}</p>
     </div>
   </div>
 
   <div
-    class="flex max-sm:flex-col items-center justify-center text-center my-5"
+    class="flex max-md:flex-col items-center justify-center text-center py-10"
   >
     <div
       class="box flex flex-col items-center justify-center text-center h-full p-3"
