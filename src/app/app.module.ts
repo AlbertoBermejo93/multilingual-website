@@ -25,8 +25,12 @@ export function HttpLoaderFactory(http: HttpClient) {
 }
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: 'legal-services', component: LegalServicesComponent },
+  { path: 'home', title: 'home', component: HomeComponent },
+  {
+    path: 'legal-services',
+    title: 'legal-service',
+    component: LegalServicesComponent,
+  },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ];
@@ -50,7 +54,10 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes, { scrollPositionRestoration: 'top' }),
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'top',
+      anchorScrolling: 'enabled',
+    }),
     HttpClientModule,
     TranslateModule.forRoot({
       defaultLanguage: 'en',
