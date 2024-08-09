@@ -28,7 +28,7 @@ const routes: Routes = [
   { path: 'home', title: 'home', component: HomeComponent },
   {
     path: 'legal-services',
-    title: 'legal-service',
+    title: 'legal-services',
     component: LegalServicesComponent,
   },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
