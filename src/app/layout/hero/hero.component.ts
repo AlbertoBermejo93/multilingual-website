@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-hero',
@@ -7,4 +8,16 @@ import { Component } from '@angular/core';
 })
 export class HeroComponent {
   constructor() {}
+
+  activeRoute: ActivatedRoute = inject(ActivatedRoute);
+  ngOnInit() {
+    this.activeRoute.fragment.subscribe((data) => {
+      console.log(data);
+      this.JumpToSection(data);
+    });
+  }
+
+  JumpToSection(section) {
+    document.getElementById(section).scrollIntoView({ behavior: 'smooth' });
+  }
 }

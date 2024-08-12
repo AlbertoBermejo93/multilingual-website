@@ -7,11 +7,10 @@
     </div>
 
     <div class="max-sm:flex-col sm:px-10 md:px-20 lg:px-32 text-center">
-      <p class="btn md:btn-md lg:btn-lg">
-        <a [routerLink]="['/legal-services']">
-          {{ "SERVICES.BUTTON.LABEL" | translate }}</a
-        >
-      </p>
+      <a class="btn md:btn-md lg:btn-lg" [routerLink]="['/legal-services']">
+        {{ "SERVICES.BUTTON.LABEL" | translate }}</a
+      >
+
       <p class="text-3xl md:text-2xl">{{ "SERVICES.SUBTITLE" | translate }}</p>
     </div>
   </div>

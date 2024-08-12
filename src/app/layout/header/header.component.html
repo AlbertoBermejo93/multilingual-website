@@ -1,11 +1,14 @@
 <div class="navbar bg-white sticky top-0 z-30 w-full shadow-md">
   <div class="flex-1">
-    <a routerLink="home" class=""
-      ><img src="/assets/icons/abg_nobackground.png" alt="abg logo"
+    <a routerLink="home"
+      ><img
+        src="/assets/icons/abg_nobackground.png"
+        alt="abg logo"
+        class="h-12 w-auto sm:h-16 md:h-20 lg:h-24 xl:h-28 object-contain"
     /></a>
   </div>
-  <div class="xl:flex-none">
-    <ul class="menu menu-horizontal px-1 max-md:hidden">
+  <div class="sm:flex-none">
+    <ul class="menu menu-horizontal px-1 max-lg:hidden">
       <li>
         <a routerLink="home" class="text-slate-600 text-lg">{{
           "NAVBAR.LINK.HOME" | translate
@@ -66,11 +69,11 @@
         </details>
       </li>
     </ul>
-    <div class="dropdown dropdown-end md:hidden">
+    <div class="dropdown dropdown-end lg:hidden">
       <div
         tabindex="0"
         role="button"
-        class="md:hidden px-5 btn btn-ghost btn-circle"
+        class="lg:hidden px-5 btn btn-ghost btn-circle"
       >
         <button>
           <svg
@@ -107,7 +110,7 @@
         </li>
       </ul>
     </div>
-    <div class="dropdown dropdown-end md:hidden">
+    <div class="dropdown dropdown-end lg:hidden">
       <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
         <svg
           xmlns="http://www.w3.org/2000/svg"
